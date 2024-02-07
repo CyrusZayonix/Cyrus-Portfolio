@@ -39,12 +39,12 @@ section {
 }
 
 footer {
-    background-color: #000000;
-    color: #ff9100;
+    background-color: #333;
+    color: #fe9900;
     text-align: center;
     padding: 1em;
-    position: fixed;
-    bottom: -20px;
     width: 100%;
 }
+
+
 
