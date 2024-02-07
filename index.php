@@ -21,6 +21,10 @@
         <h2>Hello, I'm Cyrus</h2>
         <p>This is the home page of my portfolio. Feel free to explore!</p>
     </section>
+    <img src="images/cyrus.jpg"  width="250" height="300">
+    <h2>A lil introduction</h2>
+        <p> Hi guys! My name is Cyrus Moradi and this is my portfolio website. Im 19 and I have been living in the Netherlands since 2018.</p>
+        <br>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>
     </footer>
