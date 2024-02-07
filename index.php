@@ -20,11 +20,11 @@
     <section>
         <h2>Hello, I'm Cyrus</h2>
         <p>This is the home page of my portfolio. Feel free to explore!</p>
+        <img src="images/cyrus.jpg" width="250" height="300">
+        <h2>A lil introduction</h2>
+        <p> Hi guys! My name is Cyrus Moradi, and this is my portfolio website. I'm 19 and have been living in the Netherlands since 2018.
+         I study software developer at the Drenthe College and am in my seconde year. </p>
     </section>
-    <img src="images/cyrus.jpg"  width="250" height="300">
-    <h2>A lil introduction</h2>
-        <p> Hi guys! My name is Cyrus Moradi and this is my portfolio website. Im 19 and I have been living in the Netherlands since 2018.</p>
-        <br>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>
     </footer>
