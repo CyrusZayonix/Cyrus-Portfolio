@@ -16,6 +16,7 @@
             <li><a href="sport.php">Sports</a></li>
             <li><a href="home_country.php">Home Country</a></li>
             <li><a href="SC.php">Studies and college</a></li>
+            <li><a href="CV.php">CV</a></li>
         </ul>
     </nav>
     <section>
