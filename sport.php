@@ -15,13 +15,14 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="sport.php">Sports</a></li>
             <li><a href="home_country.php">Home Country</a></li>
+            <li><a href="SC.php">Studies and college</a></li>
         </ul>
     </nav>
     <section>
         <h2>Sports</h2>
         <p>On this page you are going to learn about my favorite sports and my All Time Personal records (Pr's)</p>
         <h2>Here are my all time PR's</h2>
-        <p>Squats 175kg 1x</p>
+        <p>Squats 175kg 3x</p>
         <p>Squats 160kg 6x</p>
         <p>incline dumbbell bench press 36kg(each) 7x</p>
         <p>Leg extentions 112kg 33x</p>
