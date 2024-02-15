@@ -11,10 +11,16 @@
                 marginRight: '70%' 
             }, 800); 
         });
+
         $(document).ready(function () {
             $('nav ul').animate({
                 marginRight: '40%' 
             }, 800); 
+
+            // Toggle small tab
+            $('.toggle-tab-btn').click(function () {
+                $('.small-tab').slideToggle();
+            });
         });
     </script>
     <title>Your Portfolio - Home</title>
@@ -31,7 +37,17 @@
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
         </ul>
+        <!-- Button to toggle small tab -->
+        <button class="toggle-tab-btn">Contact</button>
     </nav>
+    
+    <div class="small-tab">
+        <p>Telefoon nummer: 0616416074</p>
+        <p>Email: cyrusbot1973@gmail.com</p>
+        <p>Woon plaats: Emmer-Compascuum</p>
+        <p>Postcode: 7881LR</p>
+        
+    </div>
     <section>
         <h2>Hello, I'm Cyrus</h2>
         <p>This is the home page of my portfolio. Feel free to explore!</p>

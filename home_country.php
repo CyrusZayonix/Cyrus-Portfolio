@@ -32,6 +32,10 @@
             <li><a href="CV.php">CV</a></li>
         </ul>
     </nav>
+    
+    </nav>
+    
+    
     <section>
         <h2>My origin</h2>
         <p>This page is about where I orginate from and the culture and history of my home country Iran</p>

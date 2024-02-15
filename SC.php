@@ -32,6 +32,8 @@
             <li><a href="CV.php">CV</a></li>
         </ul>
     </nav>
+    </nav>
+    
     <section>
         <h2>Diploma and education</h2>
         

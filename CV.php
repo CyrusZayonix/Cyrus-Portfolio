@@ -31,7 +31,12 @@
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
         </ul>
+        
     </nav>
+    
+    </nav>
+    
+    
     <section>
         <button onclick="location.href='Files/CV-C.Moradi.pdf'" download="CV-C.Moradi.pdf">Open CV PDF</button>
     </section>

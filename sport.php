@@ -32,6 +32,7 @@
             <li><a href="CV.php">CV</a></li>
         </ul>
     </nav>
+    
     <section>
         <h2>Sports</h2>
         <p>On this page you are going to learn about my favorite sports and my All Time Personal records (Pr's)</p>
