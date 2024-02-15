@@ -21,12 +21,13 @@
     </nav>
     <section>
         <h2>Text</h2>
-        <p>This is the Studies and college page. Feel free to explore!</p>
+        <p>Diploma and education</p>
         <img src="images/DC.jpg" width="250" height="220">
         <img src="images/EC.jpg" width="250" height="220">
-        <h2>Text</h2>
-        <p>Text TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText.
-        TextTextTextTextTextTextTextTextTextTextTextTextTextText. </p>
+        <h2>Esdal college</h2>
+        <p>I spent my highschool years at the Esdal college and recieved my VMBO 4 (Groen technick) diploma. In those years I was first introduced to writing codes and programming for the first time and so they say it was love in the first sight. </p>
+        <h2>Drenthe college</h2>
+        <p>I have spent the last two years studying software developer (MBO 4) at the Drenthe college and have leant alot so far. I have to admit that my love and intrest for writing codes and programming is growing by the day.</p>
     </section>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>
