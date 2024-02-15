@@ -11,6 +11,11 @@
                 marginRight: '85%' 
             }, 800); 
         });
+        $(document).ready(function () {
+            $('nav ul').animate({
+                marginRight: '40%' 
+            }, 800); 
+        });
     </script>
     <title>Your Portfolio - Sports</title>
 </head>

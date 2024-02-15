@@ -11,6 +11,11 @@
                 marginRight: '80%' 
             }, 800); 
         });
+        $(document).ready(function () {
+            $('nav ul').animate({
+                marginRight: '40%' 
+            }, 800); 
+        });
     </script>
     <title>Your Portfolio - Home country</title>
 </head>
