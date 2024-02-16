@@ -31,7 +31,18 @@
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
         </ul>
+        
+        <button class="toggle-tab-btn">Contact</button>
     </nav>
+    
+    <div class="small-tab">
+        <p>Telefoon nummer: 0616416074</p>
+        <p>Email: cyrusbot1973@gmail.com</p>
+        <p>Woon plaats: Emmer-Compascuum</p>
+        <p>Postcode: 7881LR</p>
+        
+    </div>
+    
     
     <section>
         <h2>Sports</h2>
