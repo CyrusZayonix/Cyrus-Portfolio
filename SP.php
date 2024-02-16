@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"> 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
+      
+
         $(document).ready(function () {
             $('nav ul').animate({
                 marginRight: '30%' 
             }, 800); 
+
+            
             $('.toggle-tab-btn').click(function () {
                 $('.small-tab').slideToggle();
             });
@@ -23,18 +27,16 @@
 
         $(document).ready(function () {
     
-         $('header img').addClass('hidden');
-          });
+        $('header img').addClass('hidden');
+        });
 
-        
     </script>
-    <title>Your Portfolio - School and College</title>
+    <title>Your Portfolio - School projects</title>
 </head>
 <body>
     <header>
-        <h1>Studies and college</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75"> <h2>Drenthe College</h2>
+        <h1>Home</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">  <h2>Drenthe College</h2>
     </header>
-
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
@@ -55,16 +57,13 @@
         <p>Postcode: 7881LR</p>
         
     </div>
-    
     <section>
-        <h2>Diploma and education</h2>
-        
-        <img src="images/DC.jpg" width="250" height="220">
-        <img src="images/EC.jpg" width="250" height="220">
-        <h2>Esdal college</h2>
-        <p>I spent my highschool years at the Esdal college and recieved my VMBO 4 (Groen technick) diploma. In those years I was first introduced to writing codes and programming for the first time and so they say it was love in the first sight. </p>
-        <h2>Drenthe college</h2>
-        <p>I have spent the last two years studying software developer (MBO 4) at the Drenthe college and have learnt alot so far. I have to admit that my love and intrest for writing codes and programming is growing by the day.</p>
+        <h2>Welcome to My portfolio!</h2>
+        <img src="images/cyrus.jpg" width="250" height="300">
+        <h2>A small introduction</h2>
+        <p> Hi! My name is Cyrus Moradi and this is my portfolio website. I'm 19 years old, 190cm and have been living in the Netherlands since 2018.
+         I study software developer at the Drenthe College and am in my seconde year. </p>
+         <p>My hobbies are mostly working out and sometimes gaming. I'm not really a party person and drink rarley.</p>
     </section>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>

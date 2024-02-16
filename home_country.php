@@ -8,7 +8,7 @@
     <script>
         $(document).ready(function () {
             $('nav ul').animate({
-                marginRight: '40%' 
+                marginRight: '30%' 
             }, 800); 
             $('.toggle-tab-btn').click(function () {
                 $('.small-tab').slideToggle();
@@ -39,6 +39,7 @@
             <li><a href="home_country.php">Home Country</a></li>
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
+            <li><a href="SP.php">School projects</a></li>
         </ul>
         
         <button class="toggle-tab-btn">Contact</button>
