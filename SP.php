@@ -6,29 +6,38 @@
     <link rel="stylesheet" href="css/style.css"> 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
-      
-
-        $(document).ready(function () {
-            $('nav ul').animate({
-                marginRight: '30%' 
-            }, 800); 
-
-            
-            $('.toggle-tab-btn').click(function () {
-                $('.small-tab').slideToggle();
-            });
-        });
-
-        $(document).ready(function () {
-            $('header h2').animate({
-                marginRight: '10%' 
-            }, 800); 
-        });
-
-        $(document).ready(function () {
+   $(document).ready(function () {
     
-        $('header img').addClass('hidden');
-        });
+    $('nav ul').animate({
+        marginRight: '30%' 
+    }, 800);
+
+    $('header h2').animate({
+        marginRight: '10%' 
+    }, 800);
+
+    $('header img').addClass('hidden');
+
+    var currentPage = window.location.href;
+    $('nav ul li a').filter(function() {
+        return this.href == currentPage;
+    }).parent().addClass('current');
+
+    $('nav ul li a').filter(function() {
+        return this.href == currentPage;
+    }).addClass('active');
+
+    $('.toggle-tab-btn').click(function () {
+        $('.small-tab').slideToggle();
+    });
+
+    
+    $('nav ul li').hover(function() {
+        $(this).addClass('hovered');
+    }, function() {
+        $(this).removeClass('hovered');
+    });
+});
 
     </script>
     <title>Your Portfolio - School projects</title>
