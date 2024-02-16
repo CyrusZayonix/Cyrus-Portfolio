@@ -35,7 +35,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75"> <h2>Drenthe College</h2>
+        <h1>Home</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">  <h2>Drenthe College</h2>
     </header>
     <nav>
         <ul>
@@ -57,12 +57,12 @@
         
     </div>
     <section>
-        <h2>Hello, I'm Cyrus</h2>
-        <p>This is the home page of my portfolio. Feel free to explore!</p>
+        <h2>Welcome to My portfolio!</h2>
         <img src="images/cyrus.jpg" width="250" height="300">
-        <h2>A little introduction</h2>
-        <p> Hi! My name is Cyrus Moradi and this is my portfolio website. I'm 19 and have been living in the Netherlands since 2018.
+        <h2>A small introduction</h2>
+        <p> Hi! My name is Cyrus Moradi and this is my portfolio website. I'm 19 years old, 190cm and have been living in the Netherlands since 2018.
          I study software developer at the Drenthe College and am in my seconde year. </p>
+         <p>My hobbies are mostly working out and sometimes gaming. I'm not really a party person and drink rarley.</p>
     </section>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>

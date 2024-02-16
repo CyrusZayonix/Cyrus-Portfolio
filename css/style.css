@@ -16,7 +16,15 @@ header {
 
 
 }
+header.cm{
 
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
 header img {
     position: absolute;
     top: 0;
@@ -30,6 +38,9 @@ header img {
 header img.hidden {
     opacity: 1; 
 }
+
+
+
 
 header h2{
     position: absolute;
@@ -91,8 +102,8 @@ button:hover {
 }
 
 footer {
-    background-color: #ffffff;
-    color: #fe0000;
+    background-color: #ff0000;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     width: 97.6%;
