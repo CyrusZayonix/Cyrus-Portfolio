@@ -6,11 +6,7 @@
     <link rel="stylesheet" href="css/style.css"> 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $('header h1').animate({
-                marginRight: '70%' 
-            }, 800); 
-        });
+      
 
         $(document).ready(function () {
             $('nav ul').animate({
