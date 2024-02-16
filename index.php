@@ -44,8 +44,13 @@
 </head>
 <body>
     <header>
-        <h1>Home</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">  <h2>Drenthe College</h2> 
+        <h1>Home</h1> 
+        <h2>Drenthe College</h2> 
+        <img src="images/DC.jpg" alt="images/DC" width="100" height="75"> 
     </header>
+
+   
+    
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
