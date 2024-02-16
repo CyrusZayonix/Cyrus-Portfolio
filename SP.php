@@ -60,7 +60,7 @@
 
     <section>
     <h2>Choose a language:</h2>
-    <button onclick="navigateToAnotherPage()">Html/CSS</button>
+    <button onclick="navigateToAnotherPage()">HTML/CSS</button>
     <button onclick="navigateToAnotherPage2()">PHP</button>
     <button onclick="navigateToAnotherPage3()">JAVA</button>
     <button onclick="navigateToAnotherPage4()">Javascript</button>
