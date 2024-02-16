@@ -28,7 +28,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Welcome to My Portfolio</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">
     </header>
     <nav>
         <ul>

@@ -26,7 +26,7 @@
 </head>
 <body>
     <header>
-        <h1>Studies and college</h1>
+        <h1>Studies and college</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">
     </header>
 
     <nav>

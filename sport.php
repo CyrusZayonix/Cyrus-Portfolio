@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <h1>Sports</h1>
+        <h1>Sports</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">
     </header>
     <nav>
         <ul>
