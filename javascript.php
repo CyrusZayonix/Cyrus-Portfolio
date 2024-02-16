@@ -57,35 +57,10 @@
         <p>Postcode: 7881LR</p>
         
     </div>
-
     <section>
-    <h2>Choose a language:</h2>
-    <button onclick="navigateToAnotherPage()">Html/CSS</button>
-    <button onclick="navigateToAnotherPage2()">PHP</button>
-    <button onclick="navigateToAnotherPage3()">JAVA</button>
-    <button onclick="navigateToAnotherPage4()">Javascript</button>
+    <h2>Choose a Level:</h2>
+    <button onclick="location.href='Files/javascript/Level2/C2 Javascript'">Level 2</button>
     </section>
-    
-   
-
-<script>
-    function navigateToAnotherPage() {
-        window.location.href = 'html.php';
-    }
-
-    function navigateToAnotherPage2() {
-        window.location.href = 'php.php';
-    }
-
-    function navigateToAnotherPage3() {
-        window.location.href = 'java.php';
-    }
-
-    function navigateToAnotherPage4() {
-        window.location.href = 'javascript.php';
-    }
-</script>
-</div>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Cyrus . All rights reserved.</p>
     </footer>
