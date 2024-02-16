@@ -32,10 +32,16 @@
             <li><a href="CV.php">CV</a></li>
         </ul>
         
+        <button class="toggle-tab-btn">Contact</button>
     </nav>
     
-    </nav>
-    
+    <div class="small-tab">
+        <p>Telefoon nummer: 0616416074</p>
+        <p>Email: cyrusbot1973@gmail.com</p>
+        <p>Woon plaats: Emmer-Compascuum</p>
+        <p>Postcode: 7881LR</p>
+        
+    </div>
     
     <section>
         <button onclick="location.href='Files/CV-C.Moradi.pdf'" download="CV-C.Moradi.pdf">Open CV PDF</button>
