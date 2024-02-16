@@ -1,22 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #efeeee;
+    border: 2.5px solid #ffffff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #000000;
-    color: #ff9900;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 2.5px solid #ffffff;
     text-align: center;
     padding: 1em;
 }
 
 nav {
-    background-color: #fff200;
+    background-color: #ffffff;
     padding: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center; 
+    border: 2.5px solid #ffffff;
 }
 
 nav ul {
@@ -26,14 +31,15 @@ nav ul {
     padding-right: 275px;
 }
 
+
 nav li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
 nav a {
     text-decoration: none;
-    color: #fe9900;
+    color: #ff0000;
     font-weight: bold;
 }
 
@@ -45,23 +51,25 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #000000;
-    color: #ffb700cd;
+    background-color: #bb0000;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #9a0000;
 }
 
 footer {
-    background-color: #333;
-    color: #fe9900;
+    background-color: #ffffff;
+    color: #fe0000;
     text-align: center;
     padding: 1em;
-    width: 100%;
+    width: 97.6%;
+    border: 2.5px solid #ff0000;
+   
 }
 .small-tab {
     display: none;
@@ -70,6 +78,9 @@ footer {
     right: 0;
     width: 200px;
     padding: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    margin-top: 200px;
+    padding-bottom: 50px;
 }

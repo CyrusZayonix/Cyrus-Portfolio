@@ -17,11 +17,12 @@
                 marginRight: '40%' 
             }, 800); 
 
-            // Toggle small tab
+            
             $('.toggle-tab-btn').click(function () {
                 $('.small-tab').slideToggle();
             });
         });
+
     </script>
     <title>Your Portfolio - Home</title>
 </head>
@@ -37,7 +38,7 @@
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
         </ul>
-        <!-- Button to toggle small tab -->
+        
         <button class="toggle-tab-btn">Contact</button>
     </nav>
     
