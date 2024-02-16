@@ -15,6 +15,9 @@
             $('nav ul').animate({
                 marginRight: '40%' 
             }, 800); 
+            $('.toggle-tab-btn').click(function () {
+                $('.small-tab').slideToggle();
+            });
         });
     </script>
     <title>Your Portfolio - Home</title>
