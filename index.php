@@ -22,17 +22,24 @@
                 $('.small-tab').slideToggle();
             });
         });
+
         $(document).ready(function () {
-    // Add the 'hidden' class to the header image once the document is ready
-    $('header img').addClass('hidden');
-    });
+            $('header h2').animate({
+                marginRight: '10%' 
+            }, 800); 
+        });
+
+        $(document).ready(function () {
+    
+        $('header img').addClass('hidden');
+        });
 
     </script>
     <title>Your Portfolio - Home</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">
+        <h1>Welcome to My Portfolio</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75"> <h2>Drenthe College</h2>
     </header>
     <nav>
         <ul>

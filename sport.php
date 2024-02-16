@@ -19,6 +19,13 @@
                 $('.small-tab').slideToggle();
             });
         });
+
+        $(document).ready(function () {
+            $('header h2').animate({
+                marginRight: '10%' 
+            }, 800); 
+        });
+
         $(document).ready(function () {
     
          $('header img').addClass('hidden');
@@ -28,7 +35,7 @@
 </head>
 <body>
     <header>
-        <h1>Sports</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75">
+        <h1>Sports</h1> <img src="images/DC.jpg" alt="images/DC" width="100" height="75"> <h2>Drenthe College</h2>
     </header>
     <nav>
         <ul>
