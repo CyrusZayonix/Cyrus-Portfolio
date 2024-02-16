@@ -22,6 +22,10 @@
                 $('.small-tab').slideToggle();
             });
         });
+        $(document).ready(function () {
+    // Add the 'hidden' class to the header image once the document is ready
+    $('header img').addClass('hidden');
+    });
 
     </script>
     <title>Your Portfolio - Home</title>

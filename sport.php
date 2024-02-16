@@ -19,6 +19,10 @@
                 $('.small-tab').slideToggle();
             });
         });
+        $(document).ready(function () {
+    
+         $('header img').addClass('hidden');
+         });
     </script>
     <title>Your Portfolio - Sports</title>
 </head>
