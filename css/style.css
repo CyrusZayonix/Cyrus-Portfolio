@@ -33,7 +33,6 @@ header img.hidden {
 }
 
 
-
 header h2{
     position: absolute;
     top: 0;
@@ -69,7 +68,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #ff0000;
+    color: #bb0000;
     font-weight: bold;
 }
 
@@ -86,12 +85,14 @@ button {
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+    border:2px solid #bb0000 ;
 }
 
 button:hover {
-    background-color: #9a0000;
+    background-color: #ffffff;
+    color:#bb0000;
+    transition-duration: 0.5s;
 }
-
 
 footer {
     background-color: #ff0000;
@@ -122,4 +123,9 @@ nav ul li.hovered a,
 nav ul li a.active {
     color: #9a0000;
     border-bottom: 2px solid #ff0000;
+    transition-duration: 0.4s;
 }
+
+
+
+
