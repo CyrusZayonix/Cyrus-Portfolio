@@ -9,7 +9,7 @@
      $(document).ready(function () {
     
     $('nav ul').animate({
-        marginRight: '30%' 
+        marginRight: '20%' 
     }, 800);
 
     $('header h2').animate({
@@ -53,6 +53,7 @@
             <li><a href="SC.php">Studies and college</a></li>
             <li><a href="CV.php">CV</a></li>
             <li><a href="SP.php">School projects</a></li>
+            <li><a href="PC.php">Personal projects</a></li>
         </ul>
         
         <button class="toggle-tab-btn">Contact</button>

@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #efeeee;
+    border: 2px solid #ffc800;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00041bea;
+    color: #ffc800;
+    text-align: center;
+    padding: 1em;
+    border: solid 2px #ffc800;
+    height:100px;
+
+}
+
+header img{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top: 10px;
+    margin-right: 24px;
+    height: 120px;
+    width: 250px;
+}
+
+#headerText {
+    position:absolute;
+    font-size: 24px;
+    text-align: left;
+    top:0;
+    left:0;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+
+nav{
+    background-color:#ffc800;
+    color:white;
+    display:flex;
+    padding:0.5em;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+   
+    
+}
+
+nav li{
+    display: inline;
+    margin-right:10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#00041bea;
+    font-weight: none;
+    font-size: larger;
+
+}
+
+section{
+    padding: 60px;
+}
+
+nav ul li a:hover,
+nav ul li.current a,
+nav ul li.hovered a,
+nav ul li a.active {
+    color: #00041bea;
+    border-bottom: 2px solid #00041bea;
+    transition-duration: 0.2s;
+}
+
+footer {
+    background-color: #00041bea;
+    color: #ffc800;
+    text-align: center;
+    padding: 1em;
+    width: 97.6%;
+    border: 2.5px solid #ffc800;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+footer img {
+    margin-bottom: 10px;
+    margin-right: 24px;
+    height: 120px;
+    width: 250px;
+}
+
+
+
+#footerText {
+    font-size: 16px;
+    margin-left: 20px; 
+}
+
+       
+#hiddenText {
+    position:absolute;
+    display: none;      
+    left:0;
+    top:0;
+    font-size: x-large;
+    margin-left: 55px;  
+    margin-top: 55px;
+}
+
+#Diet{
+
+    border: solid 2px #efeeee;
+   
+
+}
+
+#Dietimg{
+height: 400px;
+width: 400px;
+
+}
+
+#PC{
+
+    border: solid 2px #efeeee;
+  
+}
+
+#PCimg{
+    height: 400px;
+    width: 400px;
+    
+}
+
+
+#WP{
+
+    border: solid 2px #efeeee;
+
+}
+
+#WPimg{
+
+    height: 400px;
+    width: 400px;
+
+}
+
+
+#Diet:hover,
+#PC:hover,
+#WP:hover {
+    border: 2px solid #00041bea;
+    transition-duration: 0.2s;
+}
+
+
+.signup-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signup-form button:hover {
+    background-color: #45a049;
+}
+
+.ocbtn{
+    padding: 40px;
+}
+
+#OCbtn{
+    background-color:#00041bea;
+    color:#ffc800;
+    border: solid 2px #ffc800;
+    font-size: larger;
+    height: 60px;
+    width: 120px;
+}
+
+.onetxt{
+
+    padding: 30px;
+
+}
+
+
+.ocbtn1{
+
+    padding: 30px;
+    margin-left: 300px;
+}
+
+#OCbtn1{
+
+    background-color:#00041bea;
+    color:#ffc800;
+    border: solid 2px #ffc800;
+    font-size: larger;
+    height: 60px;
+    width: 120px;
+    margin-left: 220px;
+
+}
+
+.info-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin-left: 400px;
+}
+
+.info-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.info-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.info-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.info-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.info-form button:hover {
+    background-color: #45a049;
+}
+
+.info-txt{
+
+    padding: 30px;
+
+}
